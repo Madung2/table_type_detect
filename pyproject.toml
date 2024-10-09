@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tsexpert-neo"
+version = "0.1.0"
+description = ""
+authors = ["Tasha Han <tasha@xquant-ai.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+uvicorn = "^0.31.0"
+fastapi = "^0.115.0"
+python-docx = "^1.1.2"
+lxml = "^5.3.0"
+python-multipart = "^0.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
